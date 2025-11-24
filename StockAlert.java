@@ -30,10 +30,10 @@ public class StockAlert {
     @Override
     public String toString() {
         if (isOutOfStock()) {
-            return "❌ OUT OF STOCK: " + product.getName() + " | Qty: 0";
+            return " OUT OF STOCK: " + product.getName() + "  Qty: 0";
         }
         if (isLow()) {
-            return "⚠ LOW STOCK: " + product.getName() +
+            return " LOW STOCK: " + product.getName() +
                    " | Qty: " + product.getQuantity();
         }
         return product.getName() + " stock is OK.";
