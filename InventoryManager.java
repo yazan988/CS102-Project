@@ -71,18 +71,18 @@ public class InventoryManager {
         Product p = new CategoryProduct(id, name, price, qty, cat);
         products.add(p);
 
-        System.out.println("Product Added Successfully!");
+        System.out.println("Product Added Successfully ");
     }
 
     private static void viewProducts() {
-        System.out.println("\n  PRODUCT LIST  ");
+        System.out.println("  PRODUCT LIST  ");
         for (Product p : products) {
             System.out.println(p);
         }
     }
 
     private static void checkAlerts() {
-        System.out.println("\n  STOCK ALERTS  ");
+        System.out.println("  STOCK ALERTS  ");
         for (Product p : products) {
             StockAlert alert = new StockAlert(p, 5);
             if (alert.isLow() || alert.isOutOfStock())
