@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author yazan
+ * @author obaidah
  */
 public class InventoryManager {
     private static ArrayList<Product> products = new ArrayList<>();
