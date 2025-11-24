@@ -6,7 +6,7 @@ package InventoryManager;
 
 /**
  *
- * @author yazan
+ * @author obaidah
  */
 
 //  Add StockAlert class to notify low quantity
